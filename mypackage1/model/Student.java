@@ -23,7 +23,37 @@ public class Student {
         this.address = address;
         this.phoneNumber = phoneNumber;
     }
+    
+    // setter methods
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setAge(int age) {
+        this.age = age;
+    }
+    public void setStudentId(String studentId) {
+        this.studentId = studentId;
+    }
+    public void setGrade(String grade) {
+        this.grade = grade;
+    }
+    public void setCourse(String course) {
+        this.course = course;
+    }
+    public void setYearOfStudy(int yearOfStudy) {
+        this.yearOfStudy = yearOfStudy;
+    }
+    public void setCourseFee(int courseFee) {
+        this.courseFee = courseFee;
+    }
+    public void setAddress(String address) {
+        this.address = address;
+    }
+    public void setPhoneNumber(int phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
 
+    // getter methods
     public String getName() {
         return name;
     }
